@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description of website">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    
+    <link href="./styles/bootstrap/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <title>Home</title>
+    <style>
+:root {
+      --blueGradient: #3B2A9F;
+      --bg-blue-gradient: var(--blueGradient);
+      --secondary: #FA8305;
+      --primary-100: #5141AA;
+      --box_bg: #1C140F;
+    }
+  
+    .blue-gradient-background {
+      background: var(--bg-blue-gradient);
+    }
+    .secondary-color-bg {
+      background: var(--secondary);
+    }
+    </style>  
+  </head>
+  <body>
+<!-- Header -->
+<header class="header container-lg d-flex justify-content-between align-items-center py-3">
+  <h1 class="text-white fw-bold mb-0 mr-4">LOGO</h1>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/images/document.png" alt="Menu" class="navbar-toggler-icon-custom">      </button>
+      <div class="collapse navbar-collapse blue-gradient-background" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="text-white nav-link custom-border-bottom" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="text-white nav-link" href="games.html">Games</a>
+              </li>
+              <li class="nav-item">
+                  <a class="text-white nav-link" href="#foot">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="text-white nav-link" href="news.html">News</a>
+              </li>
+          </ul>
+          <button class="text-white btn custom-button-color my-2 my-sm-0" type="button">Light</button>
+      </div>
+  </nav>
+</header>
+
+
+<!-- Main -->
+<main>
+  
+  <div class="showcase-section">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-lg-row justify-content-between"> 
+        <div class="col-lg-6 text-side">
+          <p class="fw-bold" style="color: var(--secondary);">Proved By Elham</p>
+          <h1 class="showcase-heading">Work that we produce for our clients</h1>
+          <p class="showcase-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+          <a href="games.html" class="showcase-button">Get more details</a>
+        </div>
+        <div class="col-lg-6 image-side text-center">
+          <div class="image-and-logos-wrapper"> 
+            <div class="showcase-logos d-none d-lg-block">
+              <img src="assets/images/cry 1.png" alt="CryEngine Logo" class="logo-cryengine">
+              <img src="assets/images/unreal 1.png" alt="Unreal Engine Logo" class="logo-unreal">
+              <img src="assets/images/unity 1.png" alt="Unity Logo" class="logo-unity">
+            </div>
+            <img src="assets/images/joy_stick 1.png" alt="Joystick" class="img-fluid joystick">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <!-- Part 2 -->
+      <section class="trending-games container-lg">
+        <div class="header d-flex justify-content-center align-items-center justify-content-lg-between py-1">
+            <h1 class="text-white">Currently Trending Games</h1>
+            <button class="btn btn-light see-all-btn d-lg-inline d-none">SEE ALL</button>
+        </div>
+        <ul class="d-flex justify-content-center align-items-start flex-wrap mt-4 row mx-0 list-unstyled">
+            <li class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0" style="background-color: var(--blueGradient);">
+                    <img src="./assets/images/Rectangle 23.png" class="card-img card-img-top rounded mx-auto d-block" alt="Game 1 Description">
+                    <div class="card-body d-flex justify-content-center align-items-center py-2">
+                        <svg class="bi bi-fire followers-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                        </svg>
+                        <h5 class="text-white ms-1 mt-2">40 Followers</h5>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3">
+              <div class="card border-0" style="background-color: var(--blueGradient);">
+                  <img src="./assets/images/Rectangle 24.png" class="card-img card-img-top rounded mx-auto d-block" alt="Game 2 Description">
+                  <div class="card-body d-flex justify-content-center align-items-center py-2">
+                      <svg class="bi bi-fire followers-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>
+                      <h5 class="text-white ms-1 mt-2">40 Followers</h5>
+                  </div>
+              </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0" style="background-color: var(--blueGradient);">
+                <img src="./assets/images/Rectangle 25.png" class="card-img card-img-top rounded mx-auto d-block" alt="Game 3 Description">
+                <div class="card-body d-flex justify-content-center align-items-center py-2">
+                    <svg class="bi bi-fire followers-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                    </svg>
+                    <h5 class="text-white ms-1 mt-2">40 Followers</h5>
+                </div>
+            </div>
+        </li>
+        <li class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0" style="background-color: var(--blueGradient);">
+              <img src="./assets/images/Rectangle 26.png" class="card-img card-img-top rounded mx-auto d-block" alt="Game 4 Description">
+              <div class="card-body d-flex justify-content-center align-items-center py-2">
+                  <svg class="bi bi-fire followers-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                  </svg>
+                  <h5 class="text-white ms-1 mt-2">40 Followers</h5>
+              </div>
+          </div>
+      </li>
+        </ul>
+    </section>
+    
+    
+    
+    
+      <!-- Part 3 -->
+      <section class="text-section container-lg ">
+        <div class="title text-center my-4 ">
+            <h1 class="text-white mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
+        </div>
+        <div class="content d-flex  flex-lg-row flex-column align-items-center m-lg-5">
+          <div class="text-block col-lg-5 col-md-10 my-4 text-start">
+            <h2 class="text-white">Lorem Ipsum</h2>
+            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </div>        
+            <div class="image-block ms-lg-6 mt-4 mt-lg-0 ">
+                <img class="rounded-5" src="./assets/images/Rectangle 4.png" alt="Image description highlighting the context" style="object-fit: cover; object-position: center; width: 100%;">
+            </div>
+        </div>
+    </section>
+    
+      <!-- Part 4 -->
+      <section class="recent-projects container-lg">
+        <div class="text-center my-4 pt-5 p-md-5">
+            <h1 class="text-white">Our Recent Projects</h1>
+            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+        <div class="project-images my-3">
+          <div class="row justify-content-center mx-auto">
+              <img class="img-fluid col-lg-4 col-md-6 col-12 rounded-5 my-2" src="assets/images/Rectangle 15 (1).png" alt="01" style="width: 100%; height: 223px;">
+              <img class="img-fluid col-lg-4 col-md-6 col-12 rounded-5 my-2" src="assets/images/Rectangle 16 (1).png" alt="02" style="width: 100%; height: 223px;">
+              <img class="img-fluid col-lg-4 col-md-6 col-12 rounded-5 my-2" src="assets/images/Rectangle 17 (1).png" alt="03" style="width: 100%; height: 223px;">
+              <img class="img-fluid col-lg-4 col-md-6 d-none d-md-block rounded-5 my-2" src="assets/images/Rectangle 19 (1).png" alt="04" style="width: 100%; height: 223px;">
+              <img class="img-fluid col-lg-4 col-md-6 d-none d-md-block rounded-5 my-2" src="assets/images/Rectangle 18 (1).png" alt="05" style="width: 100%; height: 223px;">
+              <img class="img-fluid col-lg-4 col-md-6 d-none d-md-block rounded-5 my-2" src="assets/images/Rectangle 20 (1).png" alt="06" style="width: 100%; height: 223px;">
+          </div>
+      </div>
+      
+      </div>
+      
+        <div class="text-center my-4">
+            <button class="btn btn-light text-black">SEE ALL</button>
+        </div>
+    </section>
+    
+      <!-- Part 5 -->
+      <section class="subscription-section container-lg">
+        <div class="text-container m-lg-5 text-center text-lg-start col-10 col-lg-5 my-4 mx-auto" >
+            <h1 class="text-white">Lorem Ipsum</h1>
+            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="subscription-box bg-box_bg py-2 w-75 rounded-4 mx-auto d-flex flex-column flex-lg-row align-items-center justify-content-center" style="background-color: var(--box_bg); padding: 50px; margin: 50px;">
+            <div class="subscription-text col-11 col-lg-5 text-center text-lg-start">
+                <h2 class="text-white">Stay in the loop</h2>
+                <p class="text-white">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!</p>
+            </div>
+            <div class="search_bar d-flex position-relative" style="width: 100%;">
+              <input class="form-input form-control pe-5" type="text" placeholder="Enter Email Address..." aria-label="Email Address">
+              <button class="btn btn-warning position-absolute end-0 top-0">Continue</button>
+          </div>          
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-box_bg w-100" id="foot">
+      <div class="container-lg text-white justify-content-center pt-5">
+          <div class="row py-2">
+              <div class="footer-logo col-lg-4 col-md-6 col-sm-12 text-center text-lg-start">
+                  <h1 class="f-bold">LOGO</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>@Logo</p>
+              </div>
+              <div class="footer-about col-lg-2 col-md-6 col-sm-12 text-center text-lg-start">
+                  <h3>About us</h3>
+                  <ul class="list-unstyled">
+                      <li>Zeux</li>
+                      <li>Portfolio</li>
+                      <li>Careers</li>
+                      <li>Contact us</li>
+                  </ul>
+              </div>
+              <div class="footer-contact col-lg-3 col-md-12 col-sm-12 text-center text-lg-start">
+                  <h3>Contact Us</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>+98 9111111111</p>
+              </div>
+              <div class="footer-social col-lg-3 col-md-12 col-sm-12 d-flex align-items-end justify-content-end">
+                <div class="d-none d-md-block">
+                    <img src="./assets/images/Group 5.png" alt="Facebook Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 11.png" alt="Instagram Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 10.png" alt="Twitter Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 9.png" alt="LinkedIn Logo" class="rounded-circle p-1 mx-1" width="40">
+                </div>
+                <div class="d-md-none text-center">
+                    <img src="./assets/images/Group 5.png" alt="Facebook Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 11.png" alt="Instagram Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 10.png" alt="Twitter Logo" class="rounded-circle p-1 mx-1" width="40">
+                    <img src="./assets/images/Group 9.png" alt="LinkedIn Logo" class="rounded-circle p-1 mx-1" width="40">
+                </div>
+            </div>
+            
+          </div>
+          <hr class="footer-divider my-4">
+          <div class="copyright text-center pb-3">
+              <h4>Copyright ® 2022 All rights Reserved To <b><i>Elham</i></b></h4>
+          </div>
+      </div>
+  </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+  </body>
+</html>
