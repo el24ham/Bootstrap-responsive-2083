@@ -630,23 +630,23 @@ body {
     position: absolute;
   }
   .logo-cryengine {
-    width: 85px;
-    height: 90px;
+    width: 80px;
+    height: 105px;
     top: 30%; 
-    left: 50%; 
+    left: 30%; 
     transform: translateX(-50%) translateY(-50%);
   }
   .logo-unreal {
-    top: 70%;
+    top: 30%;
     right: 20%;
     transform: translateX(50%) translateY(-50%);
 
   }
   .logo-unity {
-    width: 96px;
-    height: 30px;
-    top: 40%; 
-    left: 5%;
+    width: 95px;
+    height: 40px;
+    top: 55%; 
+    left: 0%;
     transform: translateX(-50%) translateY(-50%);
   }
 }
@@ -654,6 +654,7 @@ body {
 .joystick {
   position: relative;
   z-index: 10; 
+  left: 20%;
 }
 
 .search_bar {
