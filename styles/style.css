@@ -94,18 +94,20 @@ h1.text-white.fw-bold.mb-0.mr-4 {
 
 @media (min-width: 992px) {
   .project-images img:nth-child(1),
-  .project-images img:nth-child(2),
+  .project-images img:nth-child(2){
+    max-width: 382px;
+  }
   .project-images img:nth-child(3) {
-      max-width: 382px;
+      max-width: 350px;
   }
   .project-images img:nth-child(4) {
-      max-width: 246px;
+      max-width: 265px;
   }
   .project-images img:nth-child(5) {
-      max-width: 401px;
+      max-width: 411px;
   }
   .project-images img:nth-child(6) {
-      max-width: 469px;
+      max-width: 483px;
   }
 }
 
